@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>Sign-up Page</title>
+<script>
+var a=getElementById("email");
+letters=^/d[A-Z,a-z,0-9]{6}@[a-z,A-Z,0-9]{9}\.[a-z,A-Z]{2}\.[a-z,A-Z]{2}$/;
+if(a.match(letters)){
+alert("Valid");
+return true;
+}
+else{
+return false;
+}
+</script>
+</head>
+<body bgcolor="skyblue">
+<br><form align="center" action="abc.html" method="post" return onSubmit();>
+<h2>Sign-Up Page</h2>
+<label>Email:&#9</label><input type="email" id="email" placeholder="Enter Username or Email ID">
+<br><br>
+<label>Photo:&#9</label><input type="file"placeholder="Select Photo">
+<br><br>
+<button type="button">Submit</button>
+<br><br>
+<p>Click here for login page 
+<a href="login.html">Login</a></p>
+</form>
+</body>
+</html>
